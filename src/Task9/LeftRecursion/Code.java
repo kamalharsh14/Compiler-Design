@@ -1,7 +1,6 @@
 package Task9.LeftRecursion;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Code {
@@ -11,6 +10,7 @@ public class Code {
         int n = in.nextInt();
         String CFGright[] = new String[n];
         String CFGleft[] = new String[n];
+        String sunstring[];
         ArrayList<String> list = new ArrayList<>();
         for(int i = 0 ; i < n ; i++){
             System.out.print("Enter LHS:\n");
@@ -19,9 +19,6 @@ public class Code {
             CFGright[i] = in.next();
             for(int j = 0 ; j < CFGright[i].length(); j++){
                 char ch =  CFGright[i].charAt(j);
-                if(ch == '|'){
-
-                }
             }
         }
         System.out.print("\nThe CFG's are:\n");
