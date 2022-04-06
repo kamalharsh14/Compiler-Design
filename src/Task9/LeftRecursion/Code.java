@@ -1,6 +1,6 @@
 package Task9.LeftRecursion;
 
-import java.util.ArrayList;
+// import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Code {
@@ -10,15 +10,15 @@ public class Code {
         int n = in.nextInt();
         String CFGright[] = new String[n];
         String CFGleft[] = new String[n];
-        String sunstring[];
-        ArrayList<String> list = new ArrayList<>();
+        // String sunstring[];
+        // ArrayList<String> list = new ArrayList<>();
         for(int i = 0 ; i < n ; i++){
             System.out.print("Enter LHS:\n");
             CFGleft[i] = in.next();
             System.out.print("Enter RHS:\n");
             CFGright[i] = in.next();
             for(int j = 0 ; j < CFGright[i].length(); j++){
-                char ch =  CFGright[i].charAt(j);
+                // char ch =  CFGright[i].charAt(j);
             }
         }
         System.out.print("\nThe CFG's are:\n");
@@ -33,7 +33,7 @@ public class Code {
             char LHS = CFGleft[i].charAt(0);
 
             //Extracting each letter from RHS 
-            for(int j = 0 ; j < RHS.length(); j++){
+            for(int j = 0 ; j < RHS.length();){
                 char ch = RHS.charAt(j);
 
                 //Checking if its is left recursive or not
