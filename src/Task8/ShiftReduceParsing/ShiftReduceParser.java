@@ -6,7 +6,7 @@ class ShiftReduceParser
 {
 	public static void main(String[] args) throws Exception
 	{
-		int n, index=0, i, j;
+		int n, index=0, i;
 		String str, stack="", temp;
 		String[][] cfg;
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));

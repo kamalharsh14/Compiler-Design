@@ -38,6 +38,7 @@ public class ShiftReduceParse {
             }
             if (reduce(stack)) shift(stack, input);
             System.out.println();
+            sc.close();
         }
     }
     
